@@ -4,8 +4,31 @@ body {
   background: radial-gradient(ellipse at bottom, #1d242d 0%,#090a0f 100%);
 
 }
+#particles-js{
+  width: 100%;
+  height: 100%;
+  position: fixed;
 
+}
 
+/* .animation-wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.animation-wrapper div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: 0;
+}
+ */
 
 
 a {
@@ -181,7 +204,7 @@ h6 {
 }
 
 #header .logo a span {
-  color: #106eea;
+  color: #ff7979;
 }
 
 #header .logo img {
@@ -247,7 +270,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #106eea;
+  background-color: #ff7979;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -264,7 +287,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #106eea;
+  color: #ff7979;
 }
 
 .navbar .dropdown ul {
@@ -458,7 +481,7 @@ h6 {
   width: 100%;
   height: 75vh;
   /* background: black; */
-  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+  /* background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg'); */
   background-size: cover;
   position: relative;
 }
@@ -763,10 +786,7 @@ section {
   list-style: none;
   padding: 0;
 }
-.about{
-  background: radial-gradient(ellipse at bottom, #1d242d 0%,#090a0f 100%);
 
-}
 .about .content ul li {
   display: flex;
   align-items: flex-start;
@@ -809,10 +829,9 @@ section {
 /*--------------------------------------------------------------
 # tracks
 --------------------------------------------------------------*/
-.tracks{
+/* .tracks{
   background: radial-gradient(ellipse at bottom, #1d242d 0%,#090a0f 100%);
-
-}
+} */
 .tracks .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
