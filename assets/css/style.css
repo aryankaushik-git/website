@@ -1,8 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
-  /* background-color: #111 */
+  /* color: #090a0f; */
+  background: radial-gradient(ellipse at bottom, #1d242d 0%,#090a0f 100%);
+
 }
+
+
+
 
 a {
   color: #106eea;
@@ -151,7 +155,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: black;
+  background: #090a0f;
   transition: all 0.5s;
   z-index: 997;
   height: 86px;
@@ -453,14 +457,15 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/background.jpg") top left;
+  /* background: black; */
+  background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
   background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
+  /* background: rgba(255, 255, 255, 0.6); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -579,7 +584,7 @@ section {
 }
 
 .section-bg {
-  background-color: black;
+  background-color: #090a0f;
 }
 
 .section-title {
@@ -754,12 +759,14 @@ section {
   font-size: 26px;
   color: #FFFFFF;
 }
-
 .about .content ul {
   list-style: none;
   padding: 0;
 }
+.about{
+  background: radial-gradient(ellipse at bottom, #1d242d 0%,#090a0f 100%);
 
+}
 .about .content ul li {
   display: flex;
   align-items: flex-start;
@@ -803,7 +810,8 @@ section {
 # tracks
 --------------------------------------------------------------*/
 .tracks{
-  background-color: black;
+  background: radial-gradient(ellipse at bottom, #1d242d 0%,#090a0f 100%);
+
 }
 .tracks .icon-box {
   text-align: center;
@@ -1060,10 +1068,9 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.pricing{
-  background-color: black;
-  /* padding: 60px 0; */
-}
+/* .pricing{
+  background-color: rgb(26, 25, 25);
+} */
 .pricing .box {
   padding: 20px;
   background: #fff;
@@ -1176,11 +1183,8 @@ section {
 --------------------------------------------------------------*/
 .faq {
   padding: 60px 0;
-  background-color: black;
+  /* background-color: black; */
 }
-/* .faq .container{
-  background-color: #222222;
-} */
 
 .faq .faq-list {
   padding: 0;
@@ -1250,12 +1254,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact{
-  background-color: black;
-}
-/* .contact .container{
-  background-color: #222222;
+/* .contact{
+  background-color: rgb(26, 25, 25);
 } */
+
 .contact .info-box {
   color: #444444;
   text-align: center;
