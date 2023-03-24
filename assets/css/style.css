@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap');
 body {
   font-family: "Open Sans", sans-serif;
   /* color: #090a0f; */
@@ -23,6 +24,10 @@ a:hover {
   color: #3b8af2;
   text-decoration: none;
 }
+p{
+  font-family: 'Mitr', sans-serif;
+  font-weight: 100;
+}
 
 h1,
 h2,
@@ -30,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Mitr', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -217,7 +222,9 @@ h6 {
 .navbar li {
   position: relative;
 }
-
+.navbar ul li a{
+  font-family: 'Mitr', sans-serif;
+}
 .navbar>ul>li {
   white-space: nowrap;
   padding: 10px 0 10px 28px;
@@ -293,6 +300,7 @@ h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-weight: 400;
+
 }
 
 .navbar .dropdown ul a i {
@@ -461,8 +469,6 @@ h6 {
 #hero {
   width: 100%;
   height: 75vh;
-  /* background: black; */
-  /* background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg'); */
   background-size: cover;
   position: relative;
 }
@@ -483,13 +489,14 @@ h6 {
 }
 /* techahcks */
 #hero h1 {
+  
   margin: auto;
   font-weight: 600;
   line-height: 56px;
   color: #ebe0e0;
   font-size: 130px; 
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Mitr', sans-serif;
 }
 
 #hero h1 span {
@@ -501,10 +508,11 @@ h6 {
   margin: 50px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
+  font-family: 'Mitr', sans-serif;
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Mitr', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -530,6 +538,7 @@ h6 {
 @media (max-width: 768px) {
   #hero {
     height: 100vh;
+    
   }
 
   #hero h1 {
