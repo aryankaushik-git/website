@@ -99,6 +99,7 @@ h6 {
   color: white;
 }
 
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -435,7 +436,7 @@ h6 {
   color: #eee5e9;
   margin: 50px 0 30px 0;
   font-weight: 550;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Mitr", sans-serif;
 }
 
@@ -676,7 +677,7 @@ section {
   top: 0;
   z-index: -1;
   transition: 0.6s all;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 .icon-box:hover::before{
   height: 100%;
@@ -689,7 +690,7 @@ section {
   padding: 30px 10px;
   transition: all ease-in-out 0.3s;
   background: rgba(31, 31, 31, 0.2);
-  border-radius: 30px;
+  border-radius:5px;
   margin: 30px;
   position: relative;
 }
@@ -983,62 +984,7 @@ display: flex;
   }
 }
 
-/* .prize_new {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.box_prize {
-  position: relative;
-  width: 400px;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background: linear-gradient(235deg,#ff206e,#8400db); */
-  /* background: rgba(2,2,2,0.4);
-  border-color: 1px #fff;
-  margin: 10px;
-  border-radius: 20px;
-}
-.box_prize::after {
-  content: "";
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  z-index: -2;
-  filter: blur(40px);
-} */ 
-/* .box_prize:nth-child(1)::before,
-.box_prize:nth-child(1)::after {
-  background: linear-gradient(235deg, #549c01, #010615, #007a8a);
-}
-.box_prize:nth-child(2)::before,
-.box_prize:nth-child(2)::after {
-  background: linear-gradient(235deg, #a4023d, #010615, #9d9f00);
-}
-.box_prize:nth-child(3)::before,
-.box_prize:nth-child(3)::after {
-  background: linear-gradient(235deg, #8400db, #010615, #348dd5);
-} */
 
-/* .box_prize .glass {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
-  display: block;
-  background: rgba(255, 255, 255, 0.1);
-  pointer-events: none;
-} */
-/* .box_prize .content_prize {
-  padding: 20px;
-  color: #fff;
-} */
 /*--------------------------------------------------------------
 # team
 --------------------------------------------------------------*/
@@ -1317,11 +1263,12 @@ display: flex;
   width: 100%;
 }
 .logoimg .text {
-  width: 50%;
+  width: 60%;
 }
 
 @media (max-width: 758px) {
   .logoimg .text{
-    width: 80%;
+    width: 90%;
   }
 }
+
