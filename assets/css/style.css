@@ -21,6 +21,7 @@ body {
   --img-url-manav: url('../Team-Photos/Manav_Patel.png');
   --img-url-nayan: url('../Team-Photos/Nayan_Patanvadiya.png');
   --img-url-nishant: url('../Team-Photos/Nishant.png');
+  --img-url-nitish: url('../Team-Photos/Nitish.jpg');
   --img-url-yashika: url('../Team-Photos/Yashika_Mahajan.png');
 
   /* gallery image carousel */
@@ -445,7 +446,59 @@ h6 {
 --------------------------------------------------------------*/
 
 
+.discord-btn{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background: linear-gradient(90deg, rgba(100, 227, 255, 1), rgba(190, 124, 255, 1), rgba(255, 216, 118, 1), rgba(45, 126, 249, 1));
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 10px 28px;
+  margin-left: 1%;
+}
 
+
+.discord-btn a{
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discord-btn:hover{
+  background: linear-gradient(270deg, rgba(100, 227, 255, 1), rgba(190, 124, 255, 1), rgba(255, 216, 118, 1), rgba(45, 126, 249, 1));
+}
+
+.discord-btn i{
+  font-size: 24px;
+}
+
+.discord-btn span{
+  margin-left: 5px;
+}
+
+.discord-btn:hover i{
+  animation: discord 0.7s ease-in-out infinite;
+  transform: rotate(360deg);
+}
+@keyframes discord {
+  from{transform: rotate(0deg)} to{transform: rotate(360deg)}
+}
+
+.btn-get-started i{
+  font-size: 24px;
+}
+
+.btn-get-started span{
+  transform: translateY(3px);
+  margin-left: 5px;
+}
+
+.btn-get-started:hover i{animation: fadeIn 1s ease-in-out;}
+@keyframes fadeIn {
+  from{opacity:0} to{opacity:1}
+}
 
 
 
@@ -491,10 +544,10 @@ h6 {
     font-size: 16px !important;
     margin: 22px 0 30px 0 !important;
   }
-   #hero h4{
-     margin-top: -10px !important;
-     font-size: 14px !important;
-   }
+  #hero h4{
+    margin-top: -10px !important;
+    font-size: 14px !important;
+  }
   #hero .btn-get-started {
     padding: 9px 14px !important;
   }
@@ -532,7 +585,7 @@ h6 {
   font-weight: 700;
   font-size: 14px;
   letter-spacing: 1px;
-  display: inline-block;
+  display: inline-flex;
   padding: 10px 28px;
   border-radius: 4px;
   transition: 0.5s;
@@ -1166,7 +1219,7 @@ section {
   padding: 30px 20px;
   background-color: rgba(41, 39, 39, 0.3);
   overflow: hidden;
-display: flex;
+  display: flex;
   position: relative;
 }
 .p_content{
@@ -1282,7 +1335,7 @@ display: flex;
   display: flex;
   flex-wrap: wrap;
   /*flex-direction: column;*/
-  justify-content: space-evenly;
+  justify-content: start;
 
 }
 
@@ -1438,6 +1491,10 @@ display: flex;
 .profile-picture-border16-yashika {
   border-radius: 50%;
   background-image: var(--img-url-yashika), linear-gradient(90deg, #64E3FF, #BE7CFF, #FFD876, #2D7EF9);
+}
+.profile-picture-border17-nitish {
+  border-radius: 50%;
+  background-image: var(--img-url-nitish), linear-gradient(90deg, #64E3FF, #BE7CFF, #FFD876, #2D7EF9);
 }
 
 #team-carousel{
@@ -1825,16 +1882,16 @@ input {
   align-items: center;
   justify-content: space-between;
 }
-  /*#contact .container .content .left-side {*/
-  /*  width: 25%;*/
-  /*  height: 100%;*/
-  /*  margin-top: 15px;*/
-  /*  position: relative;*/
-  /*  display: flex;*/
-  /*  flex-direction: column;*/
-  /*  align-items: center;*/
-  /*  justify-content: center;*/
-  /*}*/
+/*#contact .container .content .left-side {*/
+/*  width: 25%;*/
+/*  height: 100%;*/
+/*  margin-top: 15px;*/
+/*  position: relative;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
 
 #contact .container .content .left-side {
   width: 55%;
